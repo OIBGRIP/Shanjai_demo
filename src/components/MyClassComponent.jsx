@@ -8,7 +8,19 @@ export class MyClassComponent extends Component {
     }
     
      increment = () => {
-        this.setState ({vlaue : this.state.value + 1})
+        this.setState ({value : this.state.value + 1})
+    }
+
+    decrement = () => {
+        this.setState({value : this.state.value - 1})
+    }
+
+    multiply = () => {
+        this.setState ({value : this.state.value * 2})
+    }
+
+    divide = () => {
+        this.setState ({value : this.state.value / 2})
     }
    
     
@@ -18,6 +30,9 @@ export class MyClassComponent extends Component {
             <p>Value : {this.state.value}</p>
 
             <button onClick={this.increment}>+</button>
+            <button on onClick={this.decrement}>-</button>
+            <button onClick={this.multiply}>*</button>
+            <button onClick={this.divide}>/</button>
         </div>
 
     }

@@ -1,13 +1,14 @@
 import { FunctionalComponent } from "./components/FunctionalComponents";
 import { MyClassComponent } from "./components/MyClassComponent";
-function App() {
+export function App() {
   return (
   
         <div>
           <MyClassComponent />
+          <FunctionalComponent />
         </div>
      
   );
 }
 
-export default App;
+
