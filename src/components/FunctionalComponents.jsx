@@ -9,7 +9,7 @@ export function FunctionalComponent (props) {
         }
 
         const decrement = () => {
-            setState({...state, value : state.value -2})
+            setState({...state, value : state.value -1})
         }
 
         const multiply = () => {
