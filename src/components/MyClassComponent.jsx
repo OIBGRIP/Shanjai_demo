@@ -27,6 +27,10 @@ export class MyClassComponent extends Component {
 
     render () {
         return <div>
+
+            <h1>Class Component :</h1>
+            <h2>Received Props :</h2>
+            <p>Props : {this.props.myProp} </p>
             <p>Value : {this.state.value}</p>
 
             <button onClick={this.increment}>+</button>
