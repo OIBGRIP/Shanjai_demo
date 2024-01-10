@@ -19,7 +19,7 @@ export const StudentDetails = (props) => {
                 <td>{props.gender}</td>
                 <td>{props.language ?.toString()}</td>
             </tr>
-        </tbody>
+        </tbody>    
     </table>
     </div>
 }
